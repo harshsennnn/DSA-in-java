@@ -74,3 +74,42 @@ static void pattern4(int n){
 }
 }
 }
+
+
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+
+public class Patterns {
+
+    public static void main(String args[]) {
+        pattern5(5);
+    }
+
+    static void pattern5(int n) {
+        for (int row = 1; row <= n; row++) {
+            for (int cols = 1; cols <= row; cols++) {
+                System.out.print("*");
+            }
+            if (row == n) {System.out.println();
+                for (int i = 1; i <= n; i++) {
+                    for (int j = row - 1; j >= i; j--) {
+                        System.out.print("*");
+                    }
+                    System.out.println();
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
