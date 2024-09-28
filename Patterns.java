@@ -111,5 +111,56 @@ public class Patterns {
     }
 }
 
+     *
+    **
+   ***
+  ****
+ *****
+
+ 
+public class Patterns {
+
+    public static void main(String args[]) {
+        pattern6(5);
+    }
+
+    static void pattern6(int n) {
+        for (int row = 0; row < n; row++) {
+            int totalspaces = n - row;
+            for (int i = 0; i < totalspaces; i++) {
+                System.out.print(" ");
+            }
+            for (int cols = 0; cols <= row; cols++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+*****
+ ****
+  ***
+   **
+    *
 
 
+public class Patterns {
+
+    public static void main(String args[]) {
+        pattern7(5);
+    }
+
+    static void pattern7(int n) {
+        for (int row = 0; row < n; row++) {
+           int totalspaces = row;
+            for (int i = 0; i < totalspaces; i++) {
+                System.out.print(" ");
+            }
+            for (int cols = n; cols > row; cols--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
