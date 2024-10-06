@@ -8,7 +8,8 @@
 [Searching](https://github.com/harshsennnn/DSA-in-java/blob/main/Searching.java) <br>
 [Sorting](https://github.com/harshsennnn/DSA-in-java/blob/main/Sorting.java) <br>
 [String](https://github.com/harshsennnn/DSA-in-java/blob/main/String.java) <br>
-[Pattens](https://github.com/harshsennnn/DSA-in-java/blob/main/Patterns.java)
+[Pattens](https://github.com/harshsennnn/DSA-in-java/blob/main/Patterns.java) <br>
+[Recursion] (https://github.com/harshsennnn/DSA-in-java/blob/main/Recursion.java)
 
 
 
